@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #121212;
+    font-family: Montserrat;
+    
+}
+html, body {
+    overflow-x: hidden;
+}
+header
+{
+    height: 7vh;
+    width: 100%;
+    background: #121212;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    transition: transform 0.5s ease-in-out; 
+}
+
+.header-hidden {
+    transform: translateY(-100%);
+}
+header a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d9d9d9;
+    font-family: Montserrat;
+    font-size: 1vw;
+}
+.page1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/IMG_9017.png);
+    background-size: 100%;
+    transition: background-size 0.2s ease-out;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    transform-origin: center;
+   /*background-attachment: fixed; */
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    opacity: 0.8;
+}
+.page1.in-view {
+    background-size: 120%;
+}
+.page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #d6d7d8;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+.content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content h1 {
+    font-size: 2.5rem;
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+    /*font-family: 'Inter', sans-serif;*/
+    margin-inline:auto ;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 3s steps(22) forwards, blink 1s step-end infinite;
+}
+
+.content p {
+    margin-top: 200px; 
+    font-size: 1.2rem;
+    color: #121212;
+    text-align: left;
+}
+.me img{
+    margin-left: 150px;
+}
+.about-me{
+    height: 50%;
+    width: 50%;
+}
+.about-h1 {
+    width: 20%;
+}
+.about-h1 h1 {
+    margin-bottom: 20px;
+    font-family: "Satisfy", serif;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid;
+    display: inline-block;
+    margin-inline: auto;
+    color: #121212;
+    visibility: hidden; /* Initially hidden */
+}
+.typing-start {
+    animation: typing 3s steps(22) forwards, blink 1s step-end infinite;
+}
+.about-text{
+    width: 50%;
+    font-size: 0.9rem;
+    color: #797F86ff;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+.mini-page{
+    height: 40vh;
+    width: 100%;
+    opacity: .5;
+    background-image: url(./images/IMG_8663.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #121212;
+    font-size: larger;
+}
+.mini-page2{
+    height: 40vh;
+    width: 100%;
+    opacity: .5;
+    background-image: url(./images/IMG_8663.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #121212;
+    font-size: larger;
+}
+.p-style{
+    width: 35%;
+}
+.p-style p {
+    margin-inline:auto ;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid;
+    visibility: hidden;
+    /*animation: typing 3s steps(22) forwards, blink 1s step-end infinite;*/
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+}
