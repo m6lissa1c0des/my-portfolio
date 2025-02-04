@@ -143,7 +143,7 @@ header a{
         border-color: transparent;
     }
 }
-.mini-page{
+/*.mini-page{
     height: 40vh;
     width: 100%;
     opacity: .5;
@@ -157,15 +157,16 @@ header a{
     align-items: center;
     color: #121212;
     font-size: larger;
-}
+}*/
 .mini-page2{
     height: 40vh;
     width: 100%;
-    opacity: .5;
     background-image: url(./images/IMG_8663.png);
+    opacity: .5;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 20% ;
+    background-attachment: fixed;
+    background-position: center center ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,6 +186,110 @@ header a{
 }
 
 .page3{
-    height: 100vh;
     width: 100%;
+}
+/*.laptop-container {
+    position: relative; 
+    width: 80%; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.laptop-image {
+    width: 100%;
+    display: block;
+}
+
+.screen {
+    position: absolute;
+    top: 8%;
+    /*left: 13%;
+    width: 74%; 
+    height: 72%; 
+    background-color: black;
+    overflow: hidden;
+    border-radius: 8px; 
+}
+
+.project-screen {
+    width: 95%;
+    height: 200%;
+    border: none;
+}
+.laptop-container{
+    width: 100%;
+    height: 100%;
+}
+.laptop-container img{
+    width: 100%;
+    height: 100%;
+}*/
+.page3 h1 {
+    margin: 20px;
+    font-family: "Satisfy", serif;
+    text-align: center;
+    color:#d6d7d8 ;
+    font-size: 2.5rem;
+    
+}
+.project{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.project img{
+    width: 70%;
+
+}
+.img-style{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.description{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    color: #797F86ff;
+}
+.page4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/IMG_9019.png);
+    opacity: .5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0 ;
+}
+.icons-container{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: aqua;
+}
+.icons-container a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #d9d9d9;
+    margin: 10px;
+    border-radius: 50%;
+}
+.icons-container a i {
+    font-size: 2em;
+    color: #121212;
+    opacity: 0.9;
 }
