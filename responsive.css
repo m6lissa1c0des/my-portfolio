@@ -1,0 +1,50 @@
+@media (max-width: 828px){
+    
+    .content h1 {
+        font-size: 1.7rem;
+    }
+    .page1 {
+        background-size: cover !important;  
+    }
+   /* .me {
+        display: none;
+    }*/
+    .me {
+        order: 2;
+    }
+    .me img{
+        margin-left: 0;
+        height: 50%;
+    }
+    .page2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me {
+        width: 70%;
+        height: 45%;
+        order: 1;
+        margin-top: 5%;
+    }
+    .about-me p{
+        margin-top: 50px;
+    }
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+    .project {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 534px) {
+    .p-style{
+        width: 80%;
+        font-size: 80%;
+    }
+    .page4 {
+        background-attachment: scroll; 
+    }
+}
