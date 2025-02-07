@@ -47,4 +47,7 @@
     .page4 {
         background-attachment: scroll; 
     }
+    .icons-container a{
+        margin: 4px;
+    }
 }
