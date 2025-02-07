@@ -56,13 +56,11 @@ header a:hover {
 .page1 {
     height: 100vh;
     width: 100%;
-    background-image: url(./images/IMG_9017.png);
-    /*background-size: 100%;*/
+    background-image: url(./images/compressedportfoliopage1bg.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
     transform-origin: center;
-   /*background-attachment: fixed; */
     display: flex;
     justify-content: first baseline;
     align-items: center;
@@ -154,25 +152,10 @@ header a:hover {
         border-color: transparent;
     }
 }
-/*.mini-page{
+.mini-page{
     height: 40vh;
     width: 100%;
-    opacity: .5;
-    background-image: url(./images/IMG_8663.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center ;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #121212;
-    font-size: larger;
-}*/
-.mini-page2{
-    height: 40vh;
-    width: 100%;
-    background-image: url(./images/IMG_8663.png);
+    background-image: url(./images/minipagebgcompressed.jpg);
     opacity: .5;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,7 +263,7 @@ header a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(./images/IMG_9019.png);
+    background-image: url(./images/footerbgcompressed.jpg);
     opacity: .5;
     background-repeat: no-repeat;
     background-size: cover;
