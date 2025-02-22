@@ -37,6 +37,9 @@
     .project {
         height: 30vh;
     }
+    .page4 {
+        background-attachment: scroll; 
+    }
 }
 
 @media (max-width: 534px) {
